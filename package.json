@@ -1,21 +1,51 @@
 {
-    "name": "theme-404",
-    "displayName": "theme-404",
-    "description": "A beautiful theme inspired by neon colors and nightlife",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Theme 404",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Theme 404-color-theme.json"
-            }
-        ]
-    }
+  "name": "theme-404",
+  "displayName": "404 Theme",
+  "description": "A theme suite with various colors inspired by nightlife themes",
+  "version": "0.0.1",
+  "license": "MIT",
+  "preview": true,
+  "icon": "assets/img/icon.png",
+  "publisher": "arthur404dev",
+  "galleryBanner": {
+    "color": "#705fbd",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/404-theme/visual-studio-code"
+  },
+  "bugs": {
+    "url": "https://github.com/404-theme/visual-studio-code/issues"
+  },
+  "homepage": "https://github.com/404-theme/visual-studio-code/blob/main/README.md",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "purple",
+    "neon",
+    "cyberpunk",
+    "acessible theme",
+    "night theme",
+    "light",
+    "dark",
+    "404"
+  ],
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "404 Dark : Purple Daze - Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/purple-daze-contrast-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "deploy": "vsce publish"
+  }
 }
