@@ -1,0 +1,21 @@
+{
+    "name": "theme-404",
+    "displayName": "theme-404",
+    "description": "A beautiful theme inspired by neon colors and nightlife",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Theme 404",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Theme 404-color-theme.json"
+            }
+        ]
+    }
+}
