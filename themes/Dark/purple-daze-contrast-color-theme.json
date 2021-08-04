@@ -227,7 +227,9 @@
         "meta.link",
         "meta.image",
         "markup.italic",
-        "source.js support.type"
+        "source.js support.type",
+        "support.type.primitive.ts",
+        "meta.interface.ts"
       ],
       "settings": {
         "foreground": "#7E7EDD"
@@ -235,7 +237,10 @@
     },
     {
       "name": "Pallette Expression & Markup",
-      "scope": ["string.regexp", "markup.changed"],
+      "scope": [
+        "string.regexp",
+        "markup.changed",
+      ],
       "settings": {
         "foreground": "#7cb7ff"
       }
@@ -278,7 +283,9 @@
     },
     {
       "name": "Font Underline",
-      "scope": ["entity.other.inherited-class"],
+      "scope": [
+        "entity.other.inherited-class"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
